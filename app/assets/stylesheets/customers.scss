@@ -9,6 +9,8 @@
 .d-flex {
   display:flex;
   flex-wrap: wrap;
+  border: solid 1px black;
+
 
   &>div {
       width:33.3%;
