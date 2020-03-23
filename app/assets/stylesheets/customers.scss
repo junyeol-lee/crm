@@ -1,3 +1,20 @@
 // Place all the styles related to the customers controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.image{
+  width: 300px;
+  height: 300px;
+}
+
+.d-flex {
+  display:flex;
+  flex-wrap: wrap;
+
+  &>div {
+      width:33.3%;
+      display:block;
+      &>* {
+          display:block;
+      }
+  }
+}

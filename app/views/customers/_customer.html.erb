@@ -1,1 +1,14 @@
-<h1><%=customer.full_name%></h1>
+<html>
+<body>
+
+  <div class="d-flex">
+    <div >
+      <h1><%=customer.full_name%></h1>
+      <%= image_tag customer.image, :class =>'image' %>
+      <%= customer.phone_number%>
+      <%= customer.email%>
+      <%= customer.note%>
+    </div>
+  </div>
+</body>
+</html>
